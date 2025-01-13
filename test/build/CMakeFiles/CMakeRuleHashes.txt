@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+5ee50d8c6d91e2c0c8bf80cee678afd3 CMakeFiles/json11
+9e45c9bb4ea0819ce7ff8390f32766c7 CMakeFiles/json11-complete
+e118a70a697f9171a7859bd17f802d83 thirdparty/src/json11-stamp/json11-build
+77dd67541951b2f7a4d86d08db3b0c13 thirdparty/src/json11-stamp/json11-configure
+4746669204ee389f147c0a7a0279ffe9 thirdparty/src/json11-stamp/json11-download
+fe3776e1b38892129ac8ac1357d5de47 thirdparty/src/json11-stamp/json11-install
+212eabab54595bc5a970110edc5e8db8 thirdparty/src/json11-stamp/json11-mkdir
+5af2178882a9a1d27df6ce077e5e5f0a thirdparty/src/json11-stamp/json11-patch
+935ca824403a1d8792fba9373f7e7e68 thirdparty/src/json11-stamp/json11-update

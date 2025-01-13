@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/CMakeFiles/json11"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/CMakeFiles/json11.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/CMakeFiles/json11-complete.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-install.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-mkdir.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-download.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-update.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-patch.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-configure.rule"
+		},
+		{
+			"file" : "/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-stamp/json11-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json11"
+		],
+		"name" : "json11"
+	}
+}

@@ -1,0 +1,565 @@
+The system is: Linux - 3.10.0-1160.95.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /software/gcc/11.2.0/b1/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/smontill/HEOM/build/CMakeFiles/3.17.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /software/gcc/11.2.0/b1/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/smontill/HEOM/build/CMakeFiles/3.17.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_507b4/fast && /usr/bin/gmake -f CMakeFiles/cmTC_507b4.dir/build.make CMakeFiles/cmTC_507b4.dir/build
+gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_507b4.dir/testCCompiler.c.o
+/software/gcc/11.2.0/b1/bin/gcc    -o CMakeFiles/cmTC_507b4.dir/testCCompiler.c.o   -c /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_507b4
+/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507b4.dir/link.txt --verbose=1
+/software/gcc/11.2.0/b1/bin/gcc      -rdynamic CMakeFiles/cmTC_507b4.dir/testCCompiler.c.o  -o cmTC_507b4 
+gmake[1]: Leaving directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc777/fast && /usr/bin/gmake -f CMakeFiles/cmTC_fc777.dir/build.make CMakeFiles/cmTC_fc777.dir/build
+gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o
+/software/gcc/11.2.0/b1/bin/gcc   -v -o CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o   -c /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/software/gcc/11.2.0/b1/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/'
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1 -quiet -v -iprefix /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/ /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fc777.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /scratch/smontill/tmp/cc0SkzUq.s
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"
+ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed"
+ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include
+ /software/openmpi/4.0.4/b1/include
+ /software/openblas/0.2.20/b1/include
+ /software/json11/1.0.0/include/x86_64-redhat-linux
+ /software/hdf5/1.8.17/b1/include
+ /software/armadillo/10.7.1/include
+ /software/libgd/2.2.5/include
+ /software/slurm/current/include
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed
+ /usr/local/include
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7dc00ca91bb6e0ba860d14d83f8e6cff
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/'
+ as -v --64 -o CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o /scratch/smontill/tmp/cc0SkzUq.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/
+LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_fc777
+/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc777.dir/link.txt --verbose=1
+/software/gcc/11.2.0/b1/bin/gcc     -v -rdynamic CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o  -o cmTC_fc777 
+Using built-in specs.
+COLLECT_GCC=/software/gcc/11.2.0/b1/bin/gcc
+COLLECT_LTO_WRAPPER=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/
+LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc777' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fc777.'
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/scratch/smontill/tmp/ccsYw2gt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fc777 /lib/../lib64/crt1.o /lib/../lib64/crti.o /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc -L/software/gcc/11.2.0/b1/lib64/../lib64 -L/software/armadillo/10.7.1/lib64/../lib64 -L/software/slurm/current/lib64/../lib64 -L/software/slurm/current/lib/../lib64 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/gcc/11.2.0/b1/lib64 -L/software/openmpi/4.0.4/b1/lib -L/software/openblas/0.2.20/b1/lib -L/software/lapack/3.7.1/b1 -L/software/json11/1.0.0/lib/x86_64-redhat-linux -L/software/hdf5/1.8.17/b1/lib -L/software/armadillo/10.7.1/lib64 -L/software/libgd/2.2.5/lib -L/software/slurm/current/lib64 -L/software/slurm/current/lib -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc777' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fc777.'
+gmake[1]: Leaving directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+    add: [/software/openmpi/4.0.4/b1/include]
+    add: [/software/openblas/0.2.20/b1/include]
+    add: [/software/json11/1.0.0/include/x86_64-redhat-linux]
+    add: [/software/hdf5/1.8.17/b1/include]
+    add: [/software/armadillo/10.7.1/include]
+    add: [/software/libgd/2.2.5/include]
+    add: [/software/slurm/current/include]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include] ==> [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  collapse include dir [/software/openmpi/4.0.4/b1/include] ==> [/software/openmpi/4.0.4/b1/include]
+  collapse include dir [/software/openblas/0.2.20/b1/include] ==> [/software/openblas/0.2.20/b1/include]
+  collapse include dir [/software/json11/1.0.0/include/x86_64-redhat-linux] ==> [/software/json11/1.0.0/include/x86_64-redhat-linux]
+  collapse include dir [/software/hdf5/1.8.17/b1/include] ==> [/software/hdf5/1.8.17/b1/include]
+  collapse include dir [/software/armadillo/10.7.1/include] ==> [/software/armadillo/10.7.1/include]
+  collapse include dir [/software/libgd/2.2.5/include] ==> [/software/libgd/2.2.5/include]
+  collapse include dir [/software/slurm/current/include] ==> [/software/slurm/current/include]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include;/software/openmpi/4.0.4/b1/include;/software/openblas/0.2.20/b1/include;/software/json11/1.0.0/include/x86_64-redhat-linux;/software/hdf5/1.8.17/b1/include;/software/armadillo/10.7.1/include;/software/libgd/2.2.5/include;/software/slurm/current/include;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed;/usr/local/include;/gpfs/fs1/sfw2/gcc/11.2.0/b1/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_fc777/fast && /usr/bin/gmake -f CMakeFiles/cmTC_fc777.dir/build.make CMakeFiles/cmTC_fc777.dir/build]
+  ignore line: [gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/software/gcc/11.2.0/b1/bin/gcc   -v -o CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o   -c /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/software/gcc/11.2.0/b1/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/']
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1 -quiet -v -iprefix /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/ /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_fc777.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /scratch/smontill/tmp/cc0SkzUq.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  ignore line: [ /software/openmpi/4.0.4/b1/include]
+  ignore line: [ /software/openblas/0.2.20/b1/include]
+  ignore line: [ /software/json11/1.0.0/include/x86_64-redhat-linux]
+  ignore line: [ /software/hdf5/1.8.17/b1/include]
+  ignore line: [ /software/armadillo/10.7.1/include]
+  ignore line: [ /software/libgd/2.2.5/include]
+  ignore line: [ /software/slurm/current/include]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7dc00ca91bb6e0ba860d14d83f8e6cff]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o /scratch/smontill/tmp/cc0SkzUq.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_fc777]
+  ignore line: [/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc777.dir/link.txt --verbose=1]
+  ignore line: [/software/gcc/11.2.0/b1/bin/gcc     -v -rdynamic CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o  -o cmTC_fc777 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/software/gcc/11.2.0/b1/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fc777' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_fc777.']
+  link line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/scratch/smontill/tmp/ccsYw2gt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_fc777 /lib/../lib64/crt1.o /lib/../lib64/crti.o /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc -L/software/gcc/11.2.0/b1/lib64/../lib64 -L/software/armadillo/10.7.1/lib64/../lib64 -L/software/slurm/current/lib64/../lib64 -L/software/slurm/current/lib/../lib64 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/gcc/11.2.0/b1/lib64 -L/software/openmpi/4.0.4/b1/lib -L/software/openblas/0.2.20/b1/lib -L/software/lapack/3.7.1/b1 -L/software/json11/1.0.0/lib/x86_64-redhat-linux -L/software/hdf5/1.8.17/b1/lib -L/software/armadillo/10.7.1/lib64 -L/software/libgd/2.2.5/lib -L/software/slurm/current/lib64 -L/software/slurm/current/lib -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/scratch/smontill/tmp/ccsYw2gt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fc777] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o] ==> ignore
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc]
+    arg [-L/software/gcc/11.2.0/b1/lib64/../lib64] ==> dir [/software/gcc/11.2.0/b1/lib64/../lib64]
+    arg [-L/software/armadillo/10.7.1/lib64/../lib64] ==> dir [/software/armadillo/10.7.1/lib64/../lib64]
+    arg [-L/software/slurm/current/lib64/../lib64] ==> dir [/software/slurm/current/lib64/../lib64]
+    arg [-L/software/slurm/current/lib/../lib64] ==> dir [/software/slurm/current/lib/../lib64]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/gcc/11.2.0/b1/lib64] ==> dir [/software/gcc/11.2.0/b1/lib64]
+    arg [-L/software/openmpi/4.0.4/b1/lib] ==> dir [/software/openmpi/4.0.4/b1/lib]
+    arg [-L/software/openblas/0.2.20/b1/lib] ==> dir [/software/openblas/0.2.20/b1/lib]
+    arg [-L/software/lapack/3.7.1/b1] ==> dir [/software/lapack/3.7.1/b1]
+    arg [-L/software/json11/1.0.0/lib/x86_64-redhat-linux] ==> dir [/software/json11/1.0.0/lib/x86_64-redhat-linux]
+    arg [-L/software/hdf5/1.8.17/b1/lib] ==> dir [/software/hdf5/1.8.17/b1/lib]
+    arg [-L/software/armadillo/10.7.1/lib64] ==> dir [/software/armadillo/10.7.1/lib64]
+    arg [-L/software/libgd/2.2.5/lib] ==> dir [/software/libgd/2.2.5/lib]
+    arg [-L/software/slurm/current/lib64] ==> dir [/software/slurm/current/lib64]
+    arg [-L/software/slurm/current/lib] ==> dir [/software/slurm/current/lib]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_fc777.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc]
+  collapse library dir [/software/gcc/11.2.0/b1/lib64/../lib64] ==> [/software/gcc/11.2.0/b1/lib64]
+  collapse library dir [/software/armadillo/10.7.1/lib64/../lib64] ==> [/software/armadillo/10.7.1/lib64]
+  collapse library dir [/software/slurm/current/lib64/../lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/software/slurm/current/lib/../lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/gcc/11.2.0/b1/lib64] ==> [/software/gcc/11.2.0/b1/lib64]
+  collapse library dir [/software/openmpi/4.0.4/b1/lib] ==> [/software/openmpi/4.0.4/b1/lib]
+  collapse library dir [/software/openblas/0.2.20/b1/lib] ==> [/software/openblas/0.2.20/b1/lib]
+  collapse library dir [/software/lapack/3.7.1/b1] ==> [/software/lapack/3.7.1/b1]
+  collapse library dir [/software/json11/1.0.0/lib/x86_64-redhat-linux] ==> [/software/json11/1.0.0/lib/x86_64-redhat-linux]
+  collapse library dir [/software/hdf5/1.8.17/b1/lib] ==> [/software/hdf5/1.8.17/b1/lib]
+  collapse library dir [/software/armadillo/10.7.1/lib64] ==> [/software/armadillo/10.7.1/lib64]
+  collapse library dir [/software/libgd/2.2.5/lib] ==> [/software/libgd/2.2.5/lib]
+  collapse library dir [/software/slurm/current/lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/software/slurm/current/lib] ==> [/software/slurm/current/lib]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc;/software/gcc/11.2.0/b1/lib64;/software/armadillo/10.7.1/lib64;/software/slurm/current/lib64;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib64;/lib64;/usr/lib64;/software/openmpi/4.0.4/b1/lib;/software/openblas/0.2.20/b1/lib;/software/lapack/3.7.1/b1;/software/json11/1.0.0/lib/x86_64-redhat-linux;/software/hdf5/1.8.17/b1/lib;/software/libgd/2.2.5/lib;/software/slurm/current/lib;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7bb20/fast && /usr/bin/gmake -f CMakeFiles/cmTC_7bb20.dir/build.make CMakeFiles/cmTC_7bb20.dir/build
+gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7bb20.dir/testCXXCompiler.cxx.o
+/software/gcc/11.2.0/b1/bin/g++     -o CMakeFiles/cmTC_7bb20.dir/testCXXCompiler.cxx.o -c /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_7bb20
+/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb20.dir/link.txt --verbose=1
+/software/gcc/11.2.0/b1/bin/g++       -rdynamic CMakeFiles/cmTC_7bb20.dir/testCXXCompiler.cxx.o  -o cmTC_7bb20 
+gmake[1]: Leaving directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b1f43/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b1f43.dir/build.make CMakeFiles/cmTC_b1f43.dir/build
+gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o
+/software/gcc/11.2.0/b1/bin/g++    -v -o CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o -c /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/software/gcc/11.2.0/b1/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/'
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/ -D_GNU_SOURCE /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1f43.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /scratch/smontill/tmp/ccMtj5cL.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"
+ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"
+ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed"
+ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include
+ /software/openmpi/4.0.4/b1/include
+ /software/openblas/0.2.20/b1/include
+ /software/json11/1.0.0/include/x86_64-redhat-linux
+ /software/hdf5/1.8.17/b1/include
+ /software/armadillo/10.7.1/include
+ /software/libgd/2.2.5/include
+ /software/slurm/current/include
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed
+ /usr/local/include
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 83cf50668d2ef09901d9f9649ad83a11
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/'
+ as -v --64 -o CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o /scratch/smontill/tmp/ccMtj5cL.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/
+LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_b1f43
+/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1f43.dir/link.txt --verbose=1
+/software/gcc/11.2.0/b1/bin/g++      -v -rdynamic CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1f43 
+Using built-in specs.
+COLLECT_GCC=/software/gcc/11.2.0/b1/bin/g++
+COLLECT_LTO_WRAPPER=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/
+LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1f43' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1f43.'
+ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/scratch/smontill/tmp/cc1e3vKP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b1f43 /lib/../lib64/crt1.o /lib/../lib64/crti.o /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc -L/software/gcc/11.2.0/b1/lib64/../lib64 -L/software/armadillo/10.7.1/lib64/../lib64 -L/software/slurm/current/lib64/../lib64 -L/software/slurm/current/lib/../lib64 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/gcc/11.2.0/b1/lib64 -L/software/openmpi/4.0.4/b1/lib -L/software/openblas/0.2.20/b1/lib -L/software/lapack/3.7.1/b1 -L/software/json11/1.0.0/lib/x86_64-redhat-linux -L/software/hdf5/1.8.17/b1/lib -L/software/armadillo/10.7.1/lib64 -L/software/libgd/2.2.5/lib -L/software/slurm/current/lib64 -L/software/slurm/current/lib -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1f43' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1f43.'
+gmake[1]: Leaving directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+    add: [/software/openmpi/4.0.4/b1/include]
+    add: [/software/openblas/0.2.20/b1/include]
+    add: [/software/json11/1.0.0/include/x86_64-redhat-linux]
+    add: [/software/hdf5/1.8.17/b1/include]
+    add: [/software/armadillo/10.7.1/include]
+    add: [/software/libgd/2.2.5/include]
+    add: [/software/slurm/current/include]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include] ==> [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  collapse include dir [/software/openmpi/4.0.4/b1/include] ==> [/software/openmpi/4.0.4/b1/include]
+  collapse include dir [/software/openblas/0.2.20/b1/include] ==> [/software/openblas/0.2.20/b1/include]
+  collapse include dir [/software/json11/1.0.0/include/x86_64-redhat-linux] ==> [/software/json11/1.0.0/include/x86_64-redhat-linux]
+  collapse include dir [/software/hdf5/1.8.17/b1/include] ==> [/software/hdf5/1.8.17/b1/include]
+  collapse include dir [/software/armadillo/10.7.1/include] ==> [/software/armadillo/10.7.1/include]
+  collapse include dir [/software/libgd/2.2.5/include] ==> [/software/libgd/2.2.5/include]
+  collapse include dir [/software/slurm/current/include] ==> [/software/slurm/current/include]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0/backward]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include;/software/openmpi/4.0.4/b1/include;/software/openblas/0.2.20/b1/include;/software/json11/1.0.0/include/x86_64-redhat-linux;/software/hdf5/1.8.17/b1/include;/software/armadillo/10.7.1/include;/software/libgd/2.2.5/include;/software/slurm/current/include;/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0;/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0/x86_64-pc-linux-gnu;/gpfs/fs1/sfw2/gcc/11.2.0/b1/include/c++/11.2.0/backward;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed;/usr/local/include;/gpfs/fs1/sfw2/gcc/11.2.0/b1/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b1f43/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b1f43.dir/build.make CMakeFiles/cmTC_b1f43.dir/build]
+  ignore line: [gmake[1]: Entering directory `/gpfs/fs2/scratch/smontill/HEOM/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/software/gcc/11.2.0/b1/bin/g++    -v -o CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o -c /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/software/gcc/11.2.0/b1/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/']
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/cc1plus -quiet -v -iprefix /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/ -D_GNU_SOURCE /gpfs/fs1/sfw2/cmake/3.17.0/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b1f43.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /scratch/smontill/tmp/ccMtj5cL.s]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /software/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include]
+  ignore line: [ /software/openmpi/4.0.4/b1/include]
+  ignore line: [ /software/openblas/0.2.20/b1/include]
+  ignore line: [ /software/json11/1.0.0/include/x86_64-redhat-linux]
+  ignore line: [ /software/hdf5/1.8.17/b1/include]
+  ignore line: [ /software/armadillo/10.7.1/include]
+  ignore line: [ /software/libgd/2.2.5/include]
+  ignore line: [ /software/slurm/current/include]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 83cf50668d2ef09901d9f9649ad83a11]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o /scratch/smontill/tmp/ccMtj5cL.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_b1f43]
+  ignore line: [/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1f43.dir/link.txt --verbose=1]
+  ignore line: [/software/gcc/11.2.0/b1/bin/g++      -v -rdynamic CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1f43 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/software/gcc/11.2.0/b1/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --prefix=/software/gcc/11.2.0/b1 --enable-shared --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/:/software/gcc/11.2.0/b1/lib64/../lib64/:/software/armadillo/10.7.1/lib64/../lib64/:/software/slurm/current/lib64/../lib64/:/software/slurm/current/lib/../lib64/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/software/gcc/11.2.0/b1/lib64/:/software/openmpi/4.0.4/b1/lib/:/software/openblas/0.2.20/b1/lib/:/software/lapack/3.7.1/b1/:/software/json11/1.0.0/lib/x86_64-redhat-linux/:/software/hdf5/1.8.17/b1/lib/:/software/armadillo/10.7.1/lib64/:/software/libgd/2.2.5/lib/:/software/slurm/current/lib64/:/software/slurm/current/lib/:/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b1f43' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b1f43.']
+  link line: [ /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2 -plugin /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/scratch/smontill/tmp/cc1e3vKP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b1f43 /lib/../lib64/crt1.o /lib/../lib64/crti.o /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc -L/software/gcc/11.2.0/b1/lib64/../lib64 -L/software/armadillo/10.7.1/lib64/../lib64 -L/software/slurm/current/lib64/../lib64 -L/software/slurm/current/lib/../lib64 -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/software/gcc/11.2.0/b1/lib64 -L/software/openmpi/4.0.4/b1/lib -L/software/openblas/0.2.20/b1/lib -L/software/lapack/3.7.1/b1 -L/software/json11/1.0.0/lib/x86_64-redhat-linux -L/software/hdf5/1.8.17/b1/lib -L/software/armadillo/10.7.1/lib64 -L/software/libgd/2.2.5/lib -L/software/slurm/current/lib64 -L/software/slurm/current/lib -L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../libexec/gcc/x86_64-pc-linux-gnu/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/scratch/smontill/tmp/cc1e3vKP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b1f43] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtbegin.o] ==> ignore
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc]
+    arg [-L/software/gcc/11.2.0/b1/lib64/../lib64] ==> dir [/software/gcc/11.2.0/b1/lib64/../lib64]
+    arg [-L/software/armadillo/10.7.1/lib64/../lib64] ==> dir [/software/armadillo/10.7.1/lib64/../lib64]
+    arg [-L/software/slurm/current/lib64/../lib64] ==> dir [/software/slurm/current/lib64/../lib64]
+    arg [-L/software/slurm/current/lib/../lib64] ==> dir [/software/slurm/current/lib/../lib64]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/software/gcc/11.2.0/b1/lib64] ==> dir [/software/gcc/11.2.0/b1/lib64]
+    arg [-L/software/openmpi/4.0.4/b1/lib] ==> dir [/software/openmpi/4.0.4/b1/lib]
+    arg [-L/software/openblas/0.2.20/b1/lib] ==> dir [/software/openblas/0.2.20/b1/lib]
+    arg [-L/software/lapack/3.7.1/b1] ==> dir [/software/lapack/3.7.1/b1]
+    arg [-L/software/json11/1.0.0/lib/x86_64-redhat-linux] ==> dir [/software/json11/1.0.0/lib/x86_64-redhat-linux]
+    arg [-L/software/hdf5/1.8.17/b1/lib] ==> dir [/software/hdf5/1.8.17/b1/lib]
+    arg [-L/software/armadillo/10.7.1/lib64] ==> dir [/software/armadillo/10.7.1/lib64]
+    arg [-L/software/libgd/2.2.5/lib] ==> dir [/software/libgd/2.2.5/lib]
+    arg [-L/software/slurm/current/lib64] ==> dir [/software/slurm/current/lib64]
+    arg [-L/software/slurm/current/lib] ==> dir [/software/slurm/current/lib]
+    arg [-L/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..]
+    arg [CMakeFiles/cmTC_b1f43.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc]
+  collapse library dir [/software/gcc/11.2.0/b1/lib64/../lib64] ==> [/software/gcc/11.2.0/b1/lib64]
+  collapse library dir [/software/armadillo/10.7.1/lib64/../lib64] ==> [/software/armadillo/10.7.1/lib64]
+  collapse library dir [/software/slurm/current/lib64/../lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/software/slurm/current/lib/../lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/software/gcc/11.2.0/b1/lib64] ==> [/software/gcc/11.2.0/b1/lib64]
+  collapse library dir [/software/openmpi/4.0.4/b1/lib] ==> [/software/openmpi/4.0.4/b1/lib]
+  collapse library dir [/software/openblas/0.2.20/b1/lib] ==> [/software/openblas/0.2.20/b1/lib]
+  collapse library dir [/software/lapack/3.7.1/b1] ==> [/software/lapack/3.7.1/b1]
+  collapse library dir [/software/json11/1.0.0/lib/x86_64-redhat-linux] ==> [/software/json11/1.0.0/lib/x86_64-redhat-linux]
+  collapse library dir [/software/hdf5/1.8.17/b1/lib] ==> [/software/hdf5/1.8.17/b1/lib]
+  collapse library dir [/software/armadillo/10.7.1/lib64] ==> [/software/armadillo/10.7.1/lib64]
+  collapse library dir [/software/libgd/2.2.5/lib] ==> [/software/libgd/2.2.5/lib]
+  collapse library dir [/software/slurm/current/lib64] ==> [/software/slurm/current/lib64]
+  collapse library dir [/software/slurm/current/lib] ==> [/software/slurm/current/lib]
+  collapse library dir [/gpfs/fs1/sfw2/gcc/11.2.0/b1/bin/../lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../..] ==> [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc/x86_64-pc-linux-gnu/11.2.0;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib/gcc;/software/gcc/11.2.0/b1/lib64;/software/armadillo/10.7.1/lib64;/software/slurm/current/lib64;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib64;/lib64;/usr/lib64;/software/openmpi/4.0.4/b1/lib;/software/openblas/0.2.20/b1/lib;/software/lapack/3.7.1/b1;/software/json11/1.0.0/lib/x86_64-redhat-linux;/software/hdf5/1.8.17/b1/lib;/software/libgd/2.2.5/lib;/software/slurm/current/lib;/gpfs/fs1/sfw2/gcc/11.2.0/b1/lib]
+  implicit fwks: []
+
+

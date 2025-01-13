@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libdeom.a  CMakeFiles/deom.dir/deomAlgebra.cpp.o CMakeFiles/deom.dir/deomEquilibrium.cpp.o CMakeFiles/deom.dir/deomPropagation.cpp.o CMakeFiles/deom.dir/deomRem.cpp.o CMakeFiles/deom.dir/resp1st.cpp.o
+/usr/bin/ranlib ../../../lib/libdeom.a

@@ -1,0 +1,1 @@
+/software/gcc/11.2.0/b1/bin/g++  -std=c++11 -g -Wall -Ofast -march=ivybridge  -rdynamic CMakeFiles/1d-resp2.dir/src/apps/1d-resp2.cpp.o  -o ../bin/1d-resp2   -L/scratch/smontill/HEOM/lib  -Wl,-rpath,/scratch/smontill/HEOM/lib ../lib/libdeom.a -ljson11 -larmadillo -llapack -lblas 

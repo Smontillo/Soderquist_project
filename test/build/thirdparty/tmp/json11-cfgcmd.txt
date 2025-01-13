@@ -1,0 +1,1 @@
+cmd='/gpfs/fs1/sfw2/cmake/3.17.0/bin/cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

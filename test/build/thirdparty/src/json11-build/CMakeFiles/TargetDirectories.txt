@@ -1,0 +1,8 @@
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/install/strip.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/install/local.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/install.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/list_install_components.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/json11.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/edit_cache.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/test.dir
+/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/rebuild_cache.dir

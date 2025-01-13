@@ -1,0 +1,18 @@
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+/software/anaconda3/2021.05/lib/python3.8/site-packages/numpy/core/_asarray.py:102: ComplexWarning: Casting complex values to real discards the imaginary part
+  return array(a, dtype, copy=False, order=order)
+Traceback (most recent call last):
+  File "Transmission_coeff.py", line 153, in <module>
+    plt.plot(time/fstoau,dia[:,e+1], label = f'State {e+1}')
+IndexError: index 5 is out of bounds for axis 1 with size 5
+srun: error: bhp0001: task 0: Exited with exit code 1
+srun: Terminating job step 27780763.0

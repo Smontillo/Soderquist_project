@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test _flag_supported failed with the following output:
+Change Dir: /scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2e5f9/fast && gmake[4]: Entering directory `/gpfs/fs2/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_2e5f9.dir/build.make CMakeFiles/cmTC_2e5f9.dir/build
+gmake[5]: Entering directory `/gpfs/fs2/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e5f9.dir/src.cxx.o
+/software/gcc/11.2.0/b1/bin/g++    -D_flag_supported   /W4 -o CMakeFiles/cmTC_2e5f9.dir/src.cxx.o -c /scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp/src.cxx
+g++: warning: /W4: linker input file unused because linking not done
+g++: error: /W4: linker input file not found: No such file or directory
+gmake[5]: *** [CMakeFiles/cmTC_2e5f9.dir/src.cxx.o] Error 1
+gmake[5]: *** Deleting file `CMakeFiles/cmTC_2e5f9.dir/src.cxx.o'
+gmake[5]: Leaving directory `/gpfs/fs2/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp'
+gmake[4]: *** [cmTC_2e5f9/fast] Error 2
+gmake[4]: Leaving directory `/gpfs/fs2/scratch/smontill/Soderquist_project/test/build/thirdparty/src/json11-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,49 @@
+{
+    "deom": {
+        "syst": {
+            "hamsFile": "inp_hams.mat",
+            "qmdsFile": "inp_qmds.mat"
+        },
+        "bath": {
+            "npsd": 6,
+            "pade": 1,
+            "temp": 0.0009500446267629345,
+            "jomg": [
+                {
+                    "jsdr": [
+                        [
+                            1.1390837500000002e-05,
+                            0.004556335,
+                            2.4189061706296412e-05
+                        ]
+                    ]
+                }
+            ],
+            "modeFile": "inp_mode.mat",
+            "etalFile": "inp_etal.mat",
+            "etarFile": "inp_etar.mat",
+            "etaaFile": "inp_etaa.mat",
+            "expnFile": "inp_expn.mat",
+            "delrFile": "inp_delr.mat",
+            "nmod": 2
+        },
+        "hidx": {
+            "trun": 0,
+            "lmax": 8,
+            "nmax": 1000000,
+            "ferr": 1e-07,
+            "expnFile": "inp_expn.mat"
+        }
+    },
+    "rhot": {
+        "dt": 2.06705,
+        "nt": 60000,
+        "nk": 10,
+        "xpflag": 1,
+        "staticErr": 0,
+        "rho0File": "inp_rho0.mat",
+        "sdipFile": "inp_sdip.mat",
+        "pdipFile": "inp_pdip.mat",
+        "bdipFile": "inp_bdip.mat"
+    }
+}
